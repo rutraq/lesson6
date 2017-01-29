@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    height: 200px;
+    background-color: #25ff1c;
+}
+
+nav {
+    height: 60px;
+    background-color: #f3ff27;
+}
+
+footer {
+    height: 75px;
+    background-color: #1efff5;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.nav {
+    background-color: #bd6dff;
+}
+
+.news {
+    background-color: #ff466b;
+    width: 120px;
+}
+
+.content {
+    background-color: #fdff37;
+    flex-grow: 1;
+}
+
+.ad {
+    background-color: #3e36ff;
+    width: 150px;
+}
